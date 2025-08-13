@@ -1,0 +1,1 @@
+# linkura-localization-template
