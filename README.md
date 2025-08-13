@@ -37,13 +37,15 @@
 ```typescript data/*.json format
 type i18n = 'zh' ...
 type I18n = {
-	[key in i18n]: string
+	[key in i18n]: {
+		text: string,
+		author: string,
+	}
 }
 
 type TranslatedItem = {
 	raw: string,
 	translation: I18n,
-	author: string,
 }
 
 type Data = Array<TranslatedItem>

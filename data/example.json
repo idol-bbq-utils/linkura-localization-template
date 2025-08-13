@@ -2,17 +2,23 @@
     {
         "raw": "こんにちは、世界！",
         "translation": {
-            "zh-CN": "你好，世界！",
-            "en": ""
-        },
-        "author": "copilot"
+            "zh-CN": {
+                "text": "你好，世界！",
+                "author": "copilot"
+            },
+            "en": {
+                "text": "Hello, world!",
+                "author": "copilot"
+            }
+        }
     },
     {
         "raw": "蓮ノ空",
         "translation": {
-            "zh-CN": "莲之空",
-            "en": ""
-        },
-        "author": ""
+            "zh-CN": {
+                "text": "莲之空",
+                "author": "copilot"
+            }
+        }
     }
 ]
